@@ -1,32 +1,17 @@
-<nav>
-            <div class="menu">
+<!DOCTYPE html>
+<html lang="pl">
 
-                <div class="menu__btn">
-                    <button class="hamburger">
-                        <span class="hamburger__box">
-                            <span class="hamburger__inner"></span>
-                        </span>
-                    </button>
-                </div>
+<head>
+<?php include('./layout/head.php') ?>
+<title>ZSOiT Gallery</title>
+</head>
 
-                <div class="navigation">
-                    <ul class="navigation__list">
-                        <li class="navigation__item"><a href="">Strona Główna</a></li>
-                        <li class="navigation__item"><a href="">Album 2020</a></li>
-                        <li class="navigation__item"><a href="">Album 2019</a></li>
-                        <li class="navigation__item"><a href="">Albumy Archiwalne</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <center>
-            <div class="alert">
-                <h3>Ładowanie zdjęć...</h3>
-                <div class=" bar "></div>
-                <p>proszę chwilę poczekać</p> <br> <br>
-            </div>
-        </center>
-        <div class="gallery " style="display: none; ">
+<body class="page">
+    <main id="main__content" class="main page__item">
+
+    <?php include('./layout/nav.php') ?>
+
+    <div class="gallery " style="display: none; ">
             <img class="item " src="http://picsum.photos/660/646/ " alt=" ">
             <img class="item " src="http://picsum.photos/741/375/ " alt=" ">
             <img class="item " src="http://picsum.photos/813/455/ " alt=" ">
@@ -62,5 +47,14 @@
             <img class="item " src="http://picsum.photos/390/240/ " alt=" ">
             <img class="item " src="http://picsum.photos/390/130/ " alt=" ">
 
-
         </div>
+
+
+    </main>
+
+    <?php include('./layout/footer.php') ?>
+
+    <?php include('./layout/script.php') ?>
+</body>
+
+</html>
