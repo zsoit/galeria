@@ -5,6 +5,6 @@
             <img src="img/basic-logo-zsoit.png " alt="logo " width="50 ">
         </div>
         <p class="footer__info ">All rights reserved</p>
+        <p class="footer__info ">Dowiedz się więcej...</p>
         <p class="footer__info ">www.galeria.zsoit.pl </p>
-
-    </footer>
+</footer>
