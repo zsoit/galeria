@@ -7,3 +7,4 @@
 <link rel="stylesheet" href="src/css/hamburger.css">
 <link rel="stylesheet" href="src/css/main.css">
 <link rel="icon" href="img/basic-logo-zsoit.png">
+<title>ZSOiT Gallery</title>

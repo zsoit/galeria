@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <?php include('./layout/head.php') ?>
-    <title>ZSOiT Gallery</title>
+<?php include('./layout/head.php') ?>
 </head>
 <body class="page">
     <?php include('./layout/nav.php') ?>

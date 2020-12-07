@@ -3,6 +3,6 @@
 # STRONA NA TEMAT :  Galeria ZSOiT
 
 ## Napisane w HTML,CSS,JavaScript, PHP
-## biblioteka : macy.js
+## biblioteki : macy.js
 
 Jakub Achtelik III TI
