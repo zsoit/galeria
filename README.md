@@ -2,7 +2,12 @@
 
 # STRONA NA TEMAT :  Galeria ZSOiT
 
-## Napisane w HTML,CSS,JavaScript, PHP
-## biblioteki : macy.js
+## języki
+ > HTML,CSS
+ > JavaScript
+ > PHP
+## biblioteki : 
+> JavaScript : macy.js
+> CSS : font-mfizz
 
 Jakub Achtelik III TI
