@@ -7,8 +7,9 @@
 <link rel="stylesheet" href="src/css/hamburger.css">
 <link rel="stylesheet" href="src/css/main.css">
 <link rel="stylesheet" href="src/css/font-mfizz.css">
-<link rel="image_src" href="img/fb.png" />
-<meta property="og:image" content="img/fb.png" />
+<link rel="stylesheet" href="src/css/lightbox.min.css">
+<link rel="image_src" href="images/fb.png" />
+<meta property="og:image" content="images/fb.png" />
 <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
-<link rel="icon" href="img/basic-logo-zsoit.png">
+<link rel="icon" href="images/basic-logo-zsoit.png">
 <title>ZSOiT Gallery</title>

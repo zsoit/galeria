@@ -9,6 +9,6 @@ const msnry = new Macy({
     },
     margin: {
         x: 10,
-        y: 10,
+        y: 8,
     }
 })
