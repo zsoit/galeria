@@ -1,0 +1,76 @@
+.adminFormContainer p,
+.adminFormContainer h1,
+.adminFormContainer li,
+.adminFormContainer h4,
+.adminFormContainer a {
+    color: white;
+    margin-left: 10px;
+}
+
+.adminFormContainer h2 {
+    margin-bottom: 0;
+}
+
+.icon {
+    color: white;
+    margin-left: 10px;
+    font-size: 40px;
+}
+
+.bImage {
+    background-image: url(../../images/black-background-logo-zsoit.png);
+    margin: 20px;
+    padding: 15px;
+    width: 350px;
+}
+
+.adminFormContainer {
+    display: flex;
+    /* margin: 20px; */
+    margin-top: 60px;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.adminForm {
+    padding: 20px;
+}
+
+.adminForm__input,
+.adminForm__btn {
+    width: 80%;
+}
+
+.adminForm__input {
+    background-color: #fff;
+    font-size: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.adminForm__btn {
+    background-color: red;
+    margin-left: 10px;
+    justify-content: center;
+    text-transform: uppercase;
+    color: white;
+    padding: 12px;
+}
+
+.adminForm__btn:hover {
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+.adminForm__text {
+    margin-left: 10px;
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+#ip::before {
+    content: 'Twoje IP: ';
+}

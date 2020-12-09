@@ -12,4 +12,3 @@
 <meta property="og:image" content="images/fb.png" />
 <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
 <link rel="icon" href="images/basic-logo-zsoit.png">
-<title>ZSOiT Gallery</title>

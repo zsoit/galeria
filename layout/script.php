@@ -5,3 +5,10 @@
 <script src="src/js/hamburger.js "></script>
 <script src="src/js/bar.js "></script>
 
+<script>
+            $.getJSON("https://api.ipify.org?format=json",
+                function(data) {
+
+                    $("#ip").html(data.ip);
+                })
+</script>
