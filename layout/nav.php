@@ -11,6 +11,7 @@
 
         <div class="navigation">
             <ul class="navigation__list">
+                <span id="userInfo"></span>
                 <li class="navigation__item"><a href="/">Strona Główna</a></li>
                 <li class="navigation__item"><a href="/">Album 2020</a></li>
                 <li class="navigation__item"><a href="/">Album 2019</a></li>

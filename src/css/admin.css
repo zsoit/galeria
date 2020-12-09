@@ -75,3 +75,29 @@ label {
 #ip::before {
     content: 'Twoje IP: ';
 }
+
+
+/* CONETNT ADMIN */
+
+.AdminContanier {
+    margin-top: 60px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#infoClient {
+    width: 400px;
+    margin: 20px;
+}
+
+#infoClient p {
+    color: white;
+}
+
+legend {
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    padding: 5px 10px;
+}
