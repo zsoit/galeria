@@ -9,6 +9,7 @@
 
 .adminFormContainer h2 {
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 .icon {
@@ -43,7 +44,7 @@
 
 .adminForm__input {
     background-color: #fff;
-    font-size: 10px;
+    font-size: 15px;
     padding: 10px;
     margin: 10px;
 }

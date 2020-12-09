@@ -3,7 +3,7 @@
         <div class="adminForm bImage">
             <h2>ZSOiT PANEL</h2>
             <form> 
-                <input class="adminForm__input" type="uname" name=""login> <br>
+                <input class="adminForm__input" type="uname" name=""login placeholder="login"> <br>
                 <input class="adminForm__input" type="password" name="password" placeholder="hasło" required> <br>
                 <input class="adminForm__btn" type="submit" value="Zaloguj się"><br>
                 <input type="checkbox" class="adminForm__text" id="scales" name="remeber" checked>
