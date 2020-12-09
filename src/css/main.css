@@ -185,15 +185,26 @@ h2 {
     padding: 20px;
     color: white;
     transition-duration: 5s;
+    animation-name: zanikanieText;
+    animation-duration: 2s;
 }
 
 h2:before {
     content: 'xd';
     font-size: 25px;
-    color: transparent;
+    color: red;
     background-color: red;
     /* padding-right: 5px; */
     margin: 3px;
+}
+
+@keyframes zanikanieText {
+    from {
+        color: transparent;
+    }
+    to {
+        color: white;
+    }
 }
 
 .gallery p {
@@ -202,6 +213,8 @@ h2:before {
     /* margin: 5px; */
     padding: 10px;
     margin-bottom: 50px;
+    animation-name: zanikanieText;
+    animation-duration: 6s;
 }
 
 .page {
