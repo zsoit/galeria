@@ -48,7 +48,13 @@ body.lb-disable-scrolling {
     margin: 0 auto;
     border-radius: 4px;
     background-color: #fff;
-    margin-top: 150px;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .lb-outerContainer {
+        margin-top: 150px;
+    }
 }
 
 .lb-outerContainer:after {
