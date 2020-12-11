@@ -150,7 +150,7 @@ h3 {
 
 .footer__item {
     margin: 7px;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .footer a,
@@ -160,6 +160,14 @@ h3 {
 
 .footer a:hover {
     color: red;
+    transform: scale(1.2);
+}
+
+.foter__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 

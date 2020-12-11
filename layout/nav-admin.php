@@ -20,8 +20,7 @@
                 <li class="navigation__item"><a href="/"> <i class="fas fa-user-slash"></i> Usuń użytkownika</a></li>
                 <li class="navigation__item"><a href="/"> <i class="fas fa-user-edit"></i> Edytuj dostęp</a></li>
                 <li class="navigation__item"><a href="/">Wyloguj</a></li>
-
-        </ul>
+            </ul>
         </div>
     </div>
 </nav>

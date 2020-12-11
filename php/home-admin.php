@@ -47,7 +47,6 @@
                     <a href=""><abbr title="Dodaj użytkownika"><i class="fas fa-user-plus navMenu__item" "></i> </abbr></a>
                     <a href=""> <abbr title="Usuń użytkownika"> <i class="fas fa-user-slash navMenu__item" ></i></abbr></a>
                     <a href=""><abbr title="Edytuj uprawnienia"><i class="fas fa-user-edit navMenu__item" ></i></abbr></a>
-
                 </div>
             </fieldset>
         </div>
