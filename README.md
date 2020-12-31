@@ -1,13 +1,15 @@
+# STRONA:  Galeria ZSOiT
 
-
-# STRONA NA TEMAT :  Galeria ZSOiT
-
-## języki
- > HTML,CSS;
- > JavaScript;
- > PHP;
-## biblioteki :
-> JavaScript : macy.js, lightbox.js;
-> CSS : font-mfizz;
+## UŻYTE TECHNOLOGIE
+-  HTML,CSS(SASS, SCSS);
+ - JavaScript;
+ - PHP;
+ - SQL;
+## UŻYTE BIBLIOTEKI :
+> JavaScript :
+- macy.js;
+- lightbox.js;
+> CSS
+ - font-mfizz;
 
 Jakub Achtelik III TI

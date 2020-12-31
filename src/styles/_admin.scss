@@ -1,0 +1,148 @@
+.adminFormContainer {
+    p,
+    .h1,
+    li,
+    h4,
+    a {
+        color: white;
+        margin-left: 10px;
+    }
+}
+
+.icon {
+    color: white;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.bImage {
+    background-image: url(../../images/black-background-logo-zsoit.png);
+    margin: 20px;
+    padding: 15px;
+    width: 350px;
+}
+
+.adminFormContainer {
+    display: flex;
+    margin-top: 60px;
+    flex-wrap: wrap;
+    text-align: left;
+    h2 {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+}
+
+.adminForm {
+    padding: 20px;
+    &__input,
+    &__btn {
+        width: 80%;
+    }
+    &__input {
+        background-color: #fff;
+        font-size: 15px;
+        padding: 10px;
+        margin: 10px;
+    }
+    &__btn {
+        background-color: red;
+        margin-left: 10px;
+        justify-content: center;
+        text-transform: uppercase;
+        color: white;
+        padding: 12px;
+        &:hover {
+            background-color: lightgreen;
+            cursor: pointer;
+        }
+    }
+    &__text {
+        margin-left: 10px;
+        color: white;
+    }
+}
+
+label {
+    color: white;
+}
+
+#ip::before {
+    content: 'Twoje IP: ';
+}
+
+
+/* CONETNT ADMIN */
+
+.AdminContanier {
+    margin-top: 30px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#infoClient {
+    width: 400px;
+    margin: 20px;
+    & p {
+        color: white;
+    }
+}
+
+legend {
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    padding: 5px 10px;
+}
+
+
+/* ADMIN ICON */
+
+.navMenu {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin-bottom: 40px;
+    padding: 0px;
+    &__item {
+        margin: 15px;
+        font-size: 25px;
+    }
+    &__title {
+        color: red;
+        margin-bottom: 10px;
+        margin: 5px;
+    }
+    & a {
+        color: gray;
+    }
+    & a,
+    & a:hover,
+    & a:visited {
+        text-decoration: none;
+        text-align: center;
+    }
+    & a:hover {
+        color: white;
+        transform: scale(1.2);
+        margin-bottom: 30px;
+    }
+}
+
+i {
+    z-index: 3;
+}
+
+abbr {
+    position: relative;
+    &:hover::after {
+        position: absolute;
+        display: block;
+        font-size: 10px;
+        justify-items: center;
+        text-align: center;
+        background-color: #171717;
+        content: attr(title);
+    }
+}

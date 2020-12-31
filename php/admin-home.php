@@ -25,7 +25,7 @@
                     <i class="icon-apache" style="color: white; font-size: 45px; "></i>
                     <i class="icon-php" style="color: lightblue; font-size: 45px; "></i>
                     <i class="icon-mysql" style="color: yellow; font-size: 45px; "></i>
-                    <i class="icon-shell" style="color: green; font-size: 45px; "></i>
+                    <i class="icon-shell" style="color: green; font-size: 42px; "></i>
                 </div>
                 <p>System: Debian GNU/Linux 10 (buster) i686</p>
                 <p>Kernel: 4.19.0-11-686-pae</p>

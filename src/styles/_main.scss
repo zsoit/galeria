@@ -1,0 +1,209 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    flex: 1;
+}
+
+.gallery {
+    width: 80%;
+    margin: 50px auto;
+    & img {
+        max-width: 300px;
+        max-height: 200px;
+        transition: 1s;
+        margin: 7px;
+        &:hover {
+            cursor: pointer;
+            filter: grayscale(100%);
+            transform: scale(0.9);
+        }
+    }
+    & p {
+        font-size: 19px;
+        color: white;
+        padding: 10px;
+        margin-bottom: 50px;
+        animation-name: zanikanieText;
+        animation-duration: 6s;
+    }
+}
+
+.item {
+    width: 100%;
+}
+
+
+/* navigation-bar */
+
+nav {
+    position: fixed;
+    z-index: 1;
+}
+
+.menu {
+    position: fixed;
+    min-width: 100%;
+    background-color: black;
+    &__btn::after {
+        content: 'Galeria ZSOiT Miastko';
+        font-size: 24px;
+        color: white;
+    }
+}
+
+
+/* ALBUMS */
+
+.albums {
+    gap: 10px;
+    grid-auto-rows: 100px;
+    background-color: #fff;
+    &__item {
+        margin: 10px;
+        max-width: 200px;
+        background-color: #fff;
+    }
+}
+
+
+/* Progress bar */
+
+.alert {
+    font-size: 30px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+    margin-top: 200px;
+}
+
+.bar {
+    width: 100px;
+    height: 10px;
+    background: red;
+    animation-name: progressBar;
+    animation-duration: 7s;
+}
+
+
+/* LEGACY CODE */
+
+.page {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(200px, 201px) minmax(100px, 101px) minmax(400px, auto) minmax(auto, auto);
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    &__item {
+        margin: 0px;
+    }
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    &__info {
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+    }
+    &__image {
+        display: flex;
+        justify-content: center;
+    }
+    &__item {
+        margin: 7px;
+        font-size: 30px;
+    }
+    & a,
+    & a:visited {
+        color: whitesmoke;
+    }
+    & a:hover {
+        color: red;
+        transform: scale(1.2);
+    }
+}
+
+
+/*HIPERLINK A */
+
+a:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+
+/* MAIN CONnTENT*/
+
+h2 {
+    padding-bottom: 150px;
+    font-size: 30px;
+    margin-top: 80px;
+    padding: 20px;
+    color: white;
+    transition-duration: 5s;
+    animation-name: zanikanieText;
+    animation-duration: 2s;
+    &:before {
+        content: 'xd';
+        font-size: 25px;
+        color: red;
+        background-color: red;
+        margin: 3px;
+    }
+}
+
+h3 {
+    animation-name: zanikanie;
+    animation-duration: 7s;
+}
+
+// ANIMATION
+@keyframes zanikanieText {
+    from {
+        color: transparent;
+    }
+    to {
+        color: white;
+    }
+}
+
+@keyframes progressBar {
+    from {
+        width: 20%;
+        background-color: red;
+    }
+    to {
+        width: 95%;
+        background-color: transparent;
+    }
+}
+
+@keyframes zanikanie {
+    from {
+        color: white;
+    }
+    to {
+        color: transparent;
+    }
+}

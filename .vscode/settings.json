@@ -1,0 +1,42 @@
+{
+    
+    "workbench.colorTheme": "Atom One Dark",
+    "editor.fontSize": 18
+    ,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.minimap.enabled": false,
+    "[html]": {
+        "editor.defaultFormatter": "lonefy.vscode-JS-CSS-HTML-formatter"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "window.zoomLevel": 0,
+  
+
+    //bar
+    "explorer.enableDragAndDrop": false,
+    "workbench.sideBar.location": "right",
+    "search.quickOpen.includeSymbols": true,
+
+    "workbench.activityBar.visible": false,
+
+
+    //cursor
+
+    "editor.cursorBlinking": "expand",
+    "editor.cursorWidth": 4,
+
+    "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#eb5424",
+    "terminalCursor.foreground": "#eb5424"
+    }
+
+    //terminal
+    "terminal.integrated.fontSize": 17;
+
+    "editor.wordWrap": "on",
+
+
+
+
+
+}

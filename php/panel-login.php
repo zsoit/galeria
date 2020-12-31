@@ -20,6 +20,7 @@
                 <li>HTML/CSS</li>
                 <ul>
                     <li>font-mfizz</li>
+                    <li>SASS(SCSS)</li>
                 </ul>
                 <li>JavaScript</li>
                 <ul>
@@ -27,16 +28,18 @@
                     <li>lightbox.js</li>
                 </ul>
                 <li>PHP</li>
-                <li>mySQL</li>
+                <li>MySQL</li>
                 <li>GIT</li>
             </ul>
             <div class="icon">
                     <i id="html-icon" class="icon-html5-alt"></i>
                     <i id="css-icon" class="icon-css3-alt"></i>
+                    <i class="icon-sass"></i>
+                    <i id="sass-icon" class="icon-sass-alt"></i>
                     <i id="js-icon" class="icon-javascript"> </i>
                     <i id="php-icon" class="icon-php"></i>
                     <i id="mysql-icon" class="icon-mysql-alt"></i>
-                    <i class="icon-git"></i> 
+                    <i class="icon-git"></i>
             </div>
             <p>Zespół Szkół Ogólnokształcących i Technicznych w Miastku</p>
             <p>Wsparcie merytoryczne i techniczne : <b>Eugeniusz Lisiecki</b></p>

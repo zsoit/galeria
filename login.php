@@ -3,7 +3,7 @@
 <head>
 <?php include('./layout/head.php') ?>
 <title>Logowanie</title>
-<link rel="stylesheet" href="src/css/admin.css"
+<link rel="stylesheet" href="src/css/admin/admin.css"
 </head>
 <body class="page">
     <?php include('./layout/nav.php') ?>

@@ -1,0 +1,570 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.gallery {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.gallery img {
+  max-width: 300px;
+  max-height: 200px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  margin: 7px;
+}
+
+.gallery img:hover {
+  cursor: pointer;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.gallery p {
+  font-size: 19px;
+  color: white;
+  padding: 10px;
+  margin-bottom: 50px;
+  -webkit-animation-name: zanikanieText;
+          animation-name: zanikanieText;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+}
+
+.item {
+  width: 100%;
+}
+
+/* navigation-bar */
+nav {
+  position: fixed;
+  z-index: 1;
+}
+
+.menu {
+  position: fixed;
+  min-width: 100%;
+  background-color: black;
+}
+
+.menu__btn::after {
+  content: 'Galeria ZSOiT Miastko';
+  font-size: 24px;
+  color: white;
+}
+
+/* ALBUMS */
+.albums {
+  gap: 10px;
+  grid-auto-rows: 100px;
+  background-color: #fff;
+}
+
+.albums__item {
+  margin: 10px;
+  max-width: 200px;
+  background-color: #fff;
+}
+
+/* Progress bar */
+.alert {
+  font-size: 30px;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: 200px;
+  margin-top: 200px;
+}
+
+.bar {
+  width: 100px;
+  height: 10px;
+  background: red;
+  -webkit-animation-name: progressBar;
+          animation-name: progressBar;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+}
+
+/* LEGACY CODE */
+.page {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 0;
+  margin: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: minmax(200px, 201px) minmax(100px, 101px) minmax(400px, auto) minmax(auto, auto);
+      grid-template-rows: minmax(200px, 201px) minmax(100px, 101px) minmax(400px, auto) minmax(auto, auto);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page__item {
+  margin: 0px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+}
+
+.footer__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 15px;
+}
+
+.footer__image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer__item {
+  margin: 7px;
+  font-size: 30px;
+}
+
+.footer a,
+.footer a:visited {
+  color: whitesmoke;
+}
+
+.footer a:hover {
+  color: red;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+/*HIPERLINK A */
+a:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+/* MAIN CONnTENT*/
+h2 {
+  padding-bottom: 150px;
+  font-size: 30px;
+  margin-top: 80px;
+  padding: 20px;
+  color: white;
+  -webkit-transition-duration: 5s;
+          transition-duration: 5s;
+  -webkit-animation-name: zanikanieText;
+          animation-name: zanikanieText;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+h2:before {
+  content: 'xd';
+  font-size: 25px;
+  color: red;
+  background-color: red;
+  margin: 3px;
+}
+
+h3 {
+  -webkit-animation-name: zanikanie;
+          animation-name: zanikanie;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+}
+
+@-webkit-keyframes zanikanieText {
+  from {
+    color: transparent;
+  }
+  to {
+    color: white;
+  }
+}
+
+@keyframes zanikanieText {
+  from {
+    color: transparent;
+  }
+  to {
+    color: white;
+  }
+}
+
+@-webkit-keyframes progressBar {
+  from {
+    width: 20%;
+    background-color: red;
+  }
+  to {
+    width: 95%;
+    background-color: transparent;
+  }
+}
+
+@keyframes progressBar {
+  from {
+    width: 20%;
+    background-color: red;
+  }
+  to {
+    width: 95%;
+    background-color: transparent;
+  }
+}
+
+@-webkit-keyframes zanikanie {
+  from {
+    color: white;
+  }
+  to {
+    color: transparent;
+  }
+}
+
+@keyframes zanikanie {
+  from {
+    color: white;
+  }
+  to {
+    color: transparent;
+  }
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  background-color: #171717;
+  padding: 20px;
+}
+
+.hamburger {
+  padding: 10px;
+  display: inline-block;
+  cursor: pointer;
+  background-color: black;
+  border: 0;
+  margin: 0;
+}
+
+.hamburger,
+.navigation {
+  -webkit-transition: -webkit-transform 0.3s 0.1s ease-in-out;
+  transition: -webkit-transform 0.3s 0.1s ease-in-out;
+  transition: transform 0.3s 0.1s ease-in-out;
+  transition: transform 0.3s 0.1s ease-in-out, -webkit-transform 0.3s 0.1s ease-in-out;
+}
+
+.hamburger--active {
+  -webkit-transform: translatex(250px);
+          transform: translatex(250px);
+}
+
+.hamburger__box {
+  width: 35px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+}
+
+.hamburger__inner {
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-transition: background-color 0.1s 0.2s ease-in-out;
+  transition: background-color 0.1s 0.2s ease-in-out;
+}
+
+.hamburger__inner::before,
+.hamburger__inner::after {
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+  position: absolute;
+  content: '';
+  left: 0;
+  -webkit-transition: -webkit-transform 0.2s 0.2s ease-in-out;
+  transition: -webkit-transform 0.2s 0.2s ease-in-out;
+  transition: transform 0.2s 0.2s ease-in-out;
+  transition: transform 0.2s 0.2s ease-in-out, -webkit-transform 0.2s 0.2s ease-in-out;
+}
+
+.hamburger__inner::before {
+  top: -10px;
+}
+
+.hamburger__inner::after {
+  top: 10px;
+}
+
+.hamburger--active .hamburger__inner {
+  background-color: transparent;
+}
+
+.hamburger--active .hamburger__inner:before {
+  -webkit-transform: translateY(10px) rotate(45deg);
+          transform: translateY(10px) rotate(45deg);
+}
+
+.hamburger--active .hamburger__inner:after {
+  -webkit-transform: translateY(-10px) rotate(-45deg);
+          transform: translateY(-10px) rotate(-45deg);
+}
+
+.navigation {
+  height: 100vh;
+  width: 250px;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: translateX(-250px);
+          transform: translateX(-250px);
+}
+
+.navigation--active {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+.navigation__list {
+  margin-top: 50px;
+  list-style: none;
+}
+
+.navigation__item {
+  margin-bottom: 20px;
+}
+
+.navigation__item a {
+  text-decoration: none;
+  color: #171717;
+}
+
+li,
+a {
+  color: #171717;
+}
+
+.adminFormContainer p,
+.adminFormContainer .h1,
+.adminFormContainer li,
+.adminFormContainer h4,
+.adminFormContainer a {
+  color: white;
+  margin-left: 10px;
+}
+
+.icon {
+  color: white;
+  margin-left: 10px;
+  font-size: 30px;
+}
+
+.bImage {
+  background-image: url(../../images/black-background-logo-zsoit.png);
+  margin: 20px;
+  padding: 15px;
+  width: 350px;
+}
+
+.adminFormContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 60px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: left;
+}
+
+.adminFormContainer h2 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.adminForm {
+  padding: 20px;
+}
+
+.adminForm__input, .adminForm__btn {
+  width: 80%;
+}
+
+.adminForm__input {
+  background-color: #fff;
+  font-size: 15px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.adminForm__btn {
+  background-color: red;
+  margin-left: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  color: white;
+  padding: 12px;
+}
+
+.adminForm__btn:hover {
+  background-color: lightgreen;
+  cursor: pointer;
+}
+
+.adminForm__text {
+  margin-left: 10px;
+  color: white;
+}
+
+label {
+  color: white;
+}
+
+#ip::before {
+  content: 'Twoje IP: ';
+}
+
+/* CONETNT ADMIN */
+.AdminContanier {
+  margin-top: 30px;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#infoClient {
+  width: 400px;
+  margin: 20px;
+}
+
+#infoClient p {
+  color: white;
+}
+
+legend {
+  font-size: 20px;
+  color: black;
+  background-color: white;
+  padding: 5px 10px;
+}
+
+/* ADMIN ICON */
+.navMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 20px;
+  margin-bottom: 40px;
+  padding: 0px;
+}
+
+.navMenu__item {
+  margin: 15px;
+  font-size: 25px;
+}
+
+.navMenu__title {
+  color: red;
+  margin-bottom: 10px;
+  margin: 5px;
+}
+
+.navMenu a {
+  color: gray;
+}
+
+.navMenu a,
+.navMenu a:hover,
+.navMenu a:visited {
+  text-decoration: none;
+  text-align: center;
+}
+
+.navMenu a:hover {
+  color: white;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  margin-bottom: 30px;
+}
+
+i {
+  z-index: 3;
+}
+
+abbr {
+  position: relative;
+}
+
+abbr:hover::after {
+  position: absolute;
+  display: block;
+  font-size: 10px;
+  justify-items: center;
+  text-align: center;
+  background-color: #171717;
+  content: attr(title);
+}
+/*# sourceMappingURL=index.css.map */

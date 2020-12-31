@@ -1,5 +1,5 @@
 <footer class="footer page__item ">
-        <p class="footer__info ">&copy Copyright 2020 Jakub Achtelik</p>
+        <p class="footer__info ">&copy Copyright 2021 Jakub Achtelik</p>
 
         <div class="footer__image">
             <a href="http://www.zsoitmiastko.pl/" target="-blank"><img src="images/basic-logo-zsoit.png " alt="logo " width="40px" height="43px" ></a>
@@ -8,6 +8,6 @@
         </div>
         <p class="footer__info ">All rights reserved</p>
         <p class="footer__info ">
-            <a href="login.php">Dowiedz się więcej...</a>
+            <span><a href="login.php">Dowiedz się więcej...</a></span>
         <p class="footer__info ">www.galeria.zsoitmiastko.pl </p>
 </footer>

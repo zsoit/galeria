@@ -1,5 +1,3 @@
-<?php include('section.php') ?>;
-
 
 <!-- (a[href="http://picsum.photos/66$/541/" data-lightbox="mygallery" data-title="Zdjęcie $"]>img[class="item" src="http://picsum.photos/66$/541/" alt="Zdjęcie $"])*8 -->
 <!-- (a[href="images/2020/$.jpg" data-lightbox="mygallery" data-title="Zdjęcie $"]>img[class="item" src="images/2020/$.jpg" alt="Zdjęcie $"])*8 -->
