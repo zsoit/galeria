@@ -8,7 +8,7 @@
 ## UŻYTE BIBLIOTEKI :
 > JavaScript :
 - macy.js;
-- lightbox.js;
+
 > CSS
  - font-mfizz;
 

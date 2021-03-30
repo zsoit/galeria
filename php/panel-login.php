@@ -1,16 +1,15 @@
-<center>
-<div class="adminFormContainer"> 
+<div class="adminFormContainer">
         <div class="adminForm bImage">
             <h2>ZSOiT PANEL</h2>
-            <form> 
+            <form>
                 <input class="adminForm__input" type="uname" name=""login placeholder="login"> <br>
                 <input class="adminForm__input" type="password" name="password" placeholder="hasło" required> <br>
                 <input class="adminForm__btn" type="submit" value="Zaloguj się"><br>
                 <input type="checkbox" class="adminForm__text" id="scales" name="remeber" checked>
                 <label for="remeber">Zapamiętaj mnie</label> <br> <br>
-                <a href="">Nie pamiętasz hasła?</a> <br> 
+                <a href="">Nie pamiętasz hasła?</a> <br>
                 <a href="">Zarejestruj się</a> <br> <br>
-                <p id="ip"></p>
+                <p id="ip"> <?php  $status = json_decode(file_get_contents('https://api.ipify.org?format=json')); echo $status->ip ?> </p>
             </form>
         </div>
         <div class="adminForm__info bImage">
@@ -24,7 +23,7 @@
                 </ul>
                 <li>JavaScript</li>
                 <ul>
-                    <li>macy.js</li>
+                    <li>vanilla.js</li>
                     <li>lightbox.js</li>
                 </ul>
                 <li>PHP</li>
@@ -63,5 +62,4 @@
             </p>
         </div>
     </div>
-    </center>
 

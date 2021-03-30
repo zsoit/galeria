@@ -52,3 +52,5 @@
         </div>
 
     </div>
+
+    <script src="src/plugins/detect.js "></script>

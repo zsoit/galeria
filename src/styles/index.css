@@ -330,6 +330,10 @@ body {
   transition: background-color 0.1s 0.2s ease-in-out;
 }
 
+.hamburger__inner:hover {
+  color: red;
+}
+
 .hamburger__inner::before,
 .hamburger__inner::after {
   width: 100%;
@@ -399,6 +403,10 @@ body {
 li,
 a {
   color: #171717;
+}
+
+a:hover {
+  color: red;
 }
 
 .adminFormContainer p,
