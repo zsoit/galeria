@@ -12,10 +12,10 @@ content: 'Admin Panel ZSOiT';}
 </style>
 </head>
 <body class="page">
-    <?php include('./php/nav-admin.php') ?>
+    <?php include('./php/admin-nav.php') ?>
     <main id="main__content" class="main page__item">
     <!-- CONTENT -->
-    <?php include('./php/home-admin.php') ?>
+    <?php include('./php/admin-home.php') ?>
     <!-- CONTENT -->
     </main>
     <?php include('./layout/footer.php') ?>
